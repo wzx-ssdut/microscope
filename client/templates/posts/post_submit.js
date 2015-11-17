@@ -1,5 +1,6 @@
 Template.postSubmit.events({
     'submit form': function(event) {
+        // 确保浏览器不会再继续尝试提交表单
         event.preventDefault();
 
         let post = {
