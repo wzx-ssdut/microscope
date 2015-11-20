@@ -9,6 +9,7 @@ Template.postSubmit.events({
         };
 
         Meteor.call('postInsert', post, function(error, result) {
+            // 显示错误信息并退出
             if (error) {
                 return alert(error.reason);
             }

@@ -20,6 +20,7 @@ twbs:bootstrap
 underscore
 iron:router
 sacha:spin
-ian:accounts-ui-bootstrap-3
 accounts-password
+ian:accounts-ui-bootstrap-3
+check
 audit-argument-checks
